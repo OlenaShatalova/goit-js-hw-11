@@ -24,7 +24,7 @@ const onSearchFormSubmit = event => {
           message:
             'Sorry, there are no images matching your search query. Please try again!',
           position: 'topRight',
-          iconUrl: '../../../src/img/bi_x-octagon.svg',
+          iconUrl: '/src/img/bi_x-octagon.svg',
         });
         galleryEl.innerHTML = '';
         return;
@@ -53,3 +53,5 @@ let lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
   captionDelay: 250,
 });
+
+// change path to icon
