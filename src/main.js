@@ -24,7 +24,7 @@ const onSearchFormSubmit = event => {
           message:
             'Sorry, there are no images matching your search query. Please try again!',
           position: 'topRight',
-          iconUrl: './img/bi_x-octagon.svg',
+          iconUrl: '../../../src/img/bi_x-octagon.svg',
         });
         galleryEl.innerHTML = '';
         return;
