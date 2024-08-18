@@ -2,7 +2,7 @@ import SimpleLightbox from 'simplelightbox';
 import iziToast from 'izitoast';
 import { createGalleryCardTemplate } from './js/render-functions.js';
 import { fetchPhotos } from './js/pixabay-api.js';
-import icon from '../src/img/icon.svg';
+import icon from '/src/img/icon.svg';
 
 const searchFormEl = document.querySelector('.js-search-form');
 const galleryEl = document.querySelector('.js-gallery');
@@ -54,5 +54,3 @@ let lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
   captionDelay: 250,
 });
-
-// change path to icon
